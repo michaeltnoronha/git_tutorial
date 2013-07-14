@@ -1,0 +1,1 @@
+This website is a guide which explains the capabilities to help a new user understand the tool.
