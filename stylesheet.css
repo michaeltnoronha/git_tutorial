@@ -83,6 +83,12 @@ header {
 	/*background: url('binding_dark.png');*/
 }
 
+.header h3 {
+	color:white;
+	display: inline-block;
+	margin-left: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
 
 /*NAVBAR*/
 
@@ -98,7 +104,7 @@ nav ul {
 nav ul a {
 	color:#9e9e9e;
 	text-decoration: none;
-	font-family: helvetica;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 nav ul a:hover {
@@ -119,12 +125,25 @@ nav ul li {
 	/*border:1px solid red;*/
 	display: inline-block;
 	background-color: rgba(0,0,0,0.3);
+	margin: 0 auto;
+	position: relative;
 }
 
-.l1 {
-
+.lessonsummary {
+	padding-bottom: 60px;
+	text-align: center;
+	border-bottom: 1px solid black;
+	margin-top: 30px;
 }
 
+.lessonsummary p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
 
+.question {
+	padding-top: 30px;
+}
 
 
