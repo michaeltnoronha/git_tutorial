@@ -58,13 +58,20 @@ table {
 /*Note:this is the end of the CSS reset, additional general styles included below*/
 
 body {
-	background: url('http://onedesigncompany.com/images/bg-blk.jpg');
+	/*background: url('http://onedesigncompany.com/images/bg-blk.jpg');*/
+}
+
+section {
+	width: 1024px;
+	margin: 0 auto;
+	padding-top: 20px;
 }
 
 /*HEADER*/
 
 .header {
 	border-bottom: 1px solid black;
+	background:url('binding_dark.png');
 }
 
 header {
@@ -72,8 +79,8 @@ header {
 	color:white;
 	padding-left: 10px;
 	padding-top: 10px;
-	font-size: 20px;
-
+	font-size: 26px;
+	/*background: url('binding_dark.png');*/
 }
 
 
@@ -81,7 +88,7 @@ header {
 
 nav {
 	text-align: right;
-	padding-top: 0;
+	margin-top: -10px
 }
 
 nav ul {
@@ -101,6 +108,23 @@ nav ul a:hover {
 nav ul li {
 	list-style-type: none;
 	display: inline-block;
-	
+	width:120px;
 }
+
+/*LESSON EXPLANATIONS*/
+
+.lessonexplain {
+	height:180px;
+	width:15%;
+	/*border:1px solid red;*/
+	display: inline-block;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.l1 {
+
+}
+
+
+
 
