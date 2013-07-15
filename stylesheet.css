@@ -73,6 +73,7 @@ section {
 .header {
 	border-bottom: 1px solid black;
 	background:url('binding_dark.png');
+	z-index: 999;
 }
 
 header {
