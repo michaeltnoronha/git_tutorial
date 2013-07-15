@@ -63,9 +63,14 @@ body {
 }
 
 section {
-	width: 1024px;
+	width: 1024px !important;
 	margin: 0 auto;
 	padding-top: 60px;
+}
+
+.lessonparameter {
+	width: 1024px !important;
+	margin: 0 auto;
 }
 
 /*HEADER*/
@@ -260,11 +265,14 @@ nav ul li {
 	display: inline-block;
 	padding:7px;
 	border:1px solid black;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	font-weight:bold;
 	font-size: 24px;
 	font-family: 'Source Sans Pro', sans-serif;
 	margin-top: 85px;
+	/*margin:0 auto;*/
+	/*margin-left: 10%;*/
+	position: relative;
 }
 
 .lesson1 h3 {
