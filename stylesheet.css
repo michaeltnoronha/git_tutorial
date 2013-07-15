@@ -127,7 +127,22 @@ nav ul li {
 	display: inline-block;
 	background-color: rgba(0,0,0,0.3);
 	margin: 0 auto;
-	position: relative;
+	/*position: relative;*/
+}
+
+.lessonexplain h3 {
+	text-align: center;
+	margin-top:10px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+}
+
+.lessonsummary .lessonexplain p {
+	font-size: 16px;
+	font-weight: normal;
+	margin-top: 20px;
+	width:85%;
+	margin-left: 10px;
 }
 
 .lessonsummary {
@@ -145,6 +160,15 @@ nav ul li {
 
 .question {
 	padding-top: 30px;
+}
+
+.l3 a {
+	text-decoration: none;
+	color:black;
+}
+
+.l3 a:hover {
+	color:#dddddd;
 }
 
 /*FAQ*/
@@ -190,6 +214,11 @@ nav ul li {
 
 .howlong {
 	border-right: 1px solid black;
+}
+
+.faq {
+	border-bottom: 2px solid black;
+	padding-bottom: 20px;
 }
 
 
