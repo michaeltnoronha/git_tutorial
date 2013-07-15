@@ -277,6 +277,11 @@ nav ul li {
 	background-color: rgba(0,0,0,0.3);
 	height:300px;
 	display: inline-block;
+	border-radius: 5px;
+}
+
+.gitexplaindivs:hover {
+	background-color: rgba(0,0,0,0.5);
 }
 
 .gitexplaincontain {
