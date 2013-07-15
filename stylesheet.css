@@ -71,6 +71,7 @@ section {
 .lessonparameter {
 	width: 1024px !important;
 	margin: 0 auto;
+	border-bottom: 2px solid black;
 }
 
 /*HEADER*/
@@ -328,7 +329,7 @@ nav ul li {
 .gitexplaincontain {
 	margin-top: 30px;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 35px;
 }
 
 /*LESSON TWO*/
@@ -339,6 +340,7 @@ nav ul li {
 	width: 100%;
 	top:200%;
 	left: 0%;
+	z-index: -5;
 }
 
 .lesson2 h2 {
@@ -351,12 +353,14 @@ nav ul li {
 	font-weight:bold;
 	font-size: 24px;
 	font-family: 'Source Sans Pro', sans-serif;
-	margin-top: 85px;
+	/*margin-top: 85px;*/
 	/*margin:0 auto;*/
 	/*margin-left: 10%;*/
 	position: relative;
 	z-index: 0;
 }
+
+
 
 /*RESPONSIVE DESIGN*/
 
