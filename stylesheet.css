@@ -88,6 +88,7 @@ header {
 	padding-top: 10px;
 	font-size: 26px;
 	/*background: url('binding_dark.png');*/
+	z-index: 1000;
 }
 
 .header h3 {
@@ -95,6 +96,7 @@ header {
 	display: inline-block;
 	margin-left: 30px;
 	font-family: 'Source Sans Pro', sans-serif;
+	z-index: 1000;
 }
 
 .header ul li:nth-child(5) {
@@ -105,7 +107,8 @@ header {
 
 nav {
 	text-align: right;
-	margin-top: -10px
+	margin-top: -10px;
+	z-index: 1000;
 }
 
 nav ul {
@@ -273,6 +276,7 @@ nav ul li {
 	/*margin:0 auto;*/
 	/*margin-left: 10%;*/
 	position: relative;
+	z-index: 0;
 }
 
 .lesson1 h3 {
@@ -292,7 +296,7 @@ nav ul li {
 	width:28%;
 	text-align: center;
 	background-color: rgba(0,0,0,0.3);
-	height:300px;
+	height:350px;
 	display: inline-block;
 	border-radius: 5px;
 }
