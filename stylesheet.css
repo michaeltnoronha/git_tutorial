@@ -289,6 +289,10 @@ nav ul li {
 	border-radius: 5px;
 }
 
+.gitexplaindivs h3 {
+	margin-top: 20px;
+}
+
 .gitexplaindivs:hover {
 	background-color: rgba(0,0,0,0.5);
 	-webkit-transition: all 0.5s ease-in;
