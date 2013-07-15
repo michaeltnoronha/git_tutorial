@@ -79,7 +79,7 @@ section {
 .header {
 	border-bottom: 1px solid black;
 	background:url('binding_dark.png');
-	z-index: 999;
+	z-index: 9;
 }
 
 header {
@@ -89,7 +89,8 @@ header {
 	padding-top: 10px;
 	font-size: 26px;
 	/*background: url('binding_dark.png');*/
-	z-index: 1000;
+	z-index: 13;
+	margin-right: 100px;
 }
 
 .header h3 {
@@ -97,11 +98,27 @@ header {
 	display: inline-block;
 	margin-left: 30px;
 	font-family: 'Source Sans Pro', sans-serif;
-	z-index: 1000;
+	z-index: 10;
 }
 
 .header ul li:nth-child(5) {
 	margin-right:120px;
+}
+
+.gitlogo {
+	height: 60px;
+	width: 80px;
+}
+
+.gitlogo:before {
+	content: "";
+	background: url('img/git_logo.png') 0 0 no-repeat;
+	height: 60px;
+	width: 80px;
+	z-index: 100;
+	top:0;
+	left:0;
+	float:right;
 }
 
 /*NAVBAR*/
@@ -110,10 +127,6 @@ nav {
 	text-align: right;
 	margin-top: -10px;
 	z-index: 1000;
-}
-
-nav ul {
-	/*display: inline;*/
 }
 
 nav ul a {
@@ -135,7 +148,7 @@ nav ul li {
 	list-style-type: none;
 	display: inline-block;
 	width:120px;
-	z-index: 99;
+	z-index: 13;
 }
 
 .fixednav {
