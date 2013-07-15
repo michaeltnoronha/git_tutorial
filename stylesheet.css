@@ -306,7 +306,13 @@ nav ul li {
 
 	nav ul {
 		text-align: center;
-		margin-top: 30px;
+		margin-top: 30px !important;
+		margin: 0 auto;
+	}
+
+	nav ul li {
+		margin-right: 0 !important;
+		text-align: center;
 	}
 }
 
