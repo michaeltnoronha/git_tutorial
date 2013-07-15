@@ -314,6 +314,10 @@ nav ul li {
 		margin-right: 0 !important;
 		text-align: center;
 	}
+
+	.lessonsummary {
+		padding-top: 40px;
+	}
 }
 
 
