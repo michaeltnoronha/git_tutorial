@@ -244,6 +244,9 @@ nav ul li {
 .lesson1 {
 	height: 100%;
 	width:100%;
+	position: absolute;
+	top:100%;
+	left:0%;
 }
 
 .lesson1 h2 {
@@ -256,6 +259,7 @@ nav ul li {
 	font-weight:bold;
 	font-size: 24px;
 	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 85px;
 }
 
 .lesson1 h3 {
