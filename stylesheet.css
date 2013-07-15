@@ -315,12 +315,10 @@ nav ul li {
 	margin-bottom: 30px;
 }
 
-gitaha h
 
 /*RESPONSIVE DESIGN*/
 
 @media screen and (max-width:1060px) {
-	
 	header {
 		text-align: center;
 		padding-top: 15px;
