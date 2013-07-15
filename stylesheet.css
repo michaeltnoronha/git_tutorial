@@ -141,6 +141,11 @@ nav ul li {
 	background-color: rgba(0,0,0,0.3);
 	margin: 0 auto;
 	/*position: relative;*/
+	border-radius: 5px;
+}
+
+.lessonexplain:hover {
+	background-color:rgba(0,0,0,0.5);
 }
 
 .lessonexplain h3 {
