@@ -75,7 +75,8 @@ section {
 }
 
 strong {
-	font-family: bold;
+	font-weight: bold;
+	display: block;
 }
 
 /*HEADER*/
