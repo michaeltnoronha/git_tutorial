@@ -426,10 +426,10 @@ nav ul li {
 }
 
 .shellexplaindivs {
-	width:28%;
+	width:48%;
 	text-align: center;
 	background-color: rgba(0,0,0,0.3);
-	height:350px;
+	height:250px;
 	display: inline-block;
 	border-radius: 5px;
 }
@@ -469,6 +469,9 @@ nav ul li {
 	padding-bottom: 20px;
 }
 
+.shellextrapadding {
+	padding-bottom: 40px;
+}
 
 /*RESPONSIVE DESIGN*/
 
