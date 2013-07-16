@@ -492,6 +492,24 @@ nav ul li {
 	font-size: 14px;
 }
 
+/*.shellexplaindiv2 .p1shell {
+	text-align: left;
+	position: relative;
+	top:20px;
+	margin-top: -40px;
+}
+
+.shellexplaindiv2 .p2shell {
+	text-align: left;
+	position: relative;
+	top:24px;
+	margin-top: -40px;
+}*/
+
+.shellexplindiv2 .p1shell, .shellexplaindiv2 .p2shell {
+	display: none;
+}
+
 /*RESPONSIVE DESIGN*/
 
 @media screen and (max-width:1060px) {
