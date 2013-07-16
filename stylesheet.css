@@ -84,7 +84,8 @@ strong {
 .header {
  	background:url('binding_dark.png');
 	z-index: 9;
-	width:1024px;
+	width:1100px;
+	margin:0 auto;
 }
 
 header {
@@ -175,14 +176,14 @@ nav ul li {
 	width:15%;
 	/*border:1px solid red;*/
 	display: inline-block;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.4);
 	margin: 0 auto;
 	/*position: relative;*/
 	border-radius: 5px;
 }
 
 .lessonexplain:hover {
-	background-color:rgba(0,0,0,0.5);
+	background-color:rgba(0,0,0,0.6);
 	-webkit-transition: all 0.5s ease-in;
 	-moz-transition: all 0.5s ease-in;
 	-o-transition: all 0.5s ease-in;
@@ -194,6 +195,7 @@ nav ul li {
 	margin-top:20px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: bold;
+	color:#dddddd;
 }
 
 .lessonsummary .lessonexplain p {
@@ -202,6 +204,7 @@ nav ul li {
 	margin-top: 20px;
 	width:85%;
 	margin-left: 10px;
+	color:#dddddd;
 }
 
 .lessonsummary {
@@ -223,11 +226,12 @@ nav ul li {
 
 .l3 a {
 	text-decoration: none;
-	color:black;
+	/*color:black;*/
+	color:#dddddd;
 }
 
 .l3 a:hover {
-	color:#dddddd;
+	color:#bbbbbb;
 	-webkit-transition: all 0.5s ease-in 0.5s;
 	-moz-transition: all 0.5s ease-in 0.5s;
 	-o-transition: all 0.5s ease-in 0.5s;
