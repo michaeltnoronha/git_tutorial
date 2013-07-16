@@ -287,7 +287,7 @@ nav ul li {
 .lesson1 h2 {
 	background-color: rgba(186,218,85,0.8);
 	border-radius: 25px;
-	display: inline-block;
+	/*display: inline-block;*/
 	padding:7px;
 	border:1px solid black;
 	/*margin-top: 50px;*/
@@ -299,19 +299,24 @@ nav ul li {
 	/*margin-left: 10%;*/
 	position: relative;
 	z-index: 0;
+	text-align: center;
 }
 
 .lesson1 h3 {
-	display: inline-block;
+	/*display: inline-block;*/
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 20px;
-	padding-left: 7px;
+	/*padding-left: 7px;*/
+	text-align: center;
+	padding-top: 15px;
 }
 
 .lesson1 p {
-	display:inline-block;
-	padding-left: 120px;
+	/*display:inline-block;*/
+	/*padding-left: 120px;*/
+	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
+	padding-top: 10px;
 }
 
 .gitexplaindivs {
@@ -375,7 +380,7 @@ nav ul li {
 .lesson2 h2 {
 	background-color: rgba(186,218,85,0.8);
 	border-radius: 25px;
-	display: inline-block;
+	/*display: inline-block;*/
 	padding:7px;
 	border:1px solid black;
 	/*margin-top: 50px;*/
@@ -387,6 +392,7 @@ nav ul li {
 	/*margin-left: 10%;*/
 	position: relative;
 	z-index: 0;
+	text-align:center;
 }
 
 .lesson2 h3 {
