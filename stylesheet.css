@@ -144,7 +144,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-	color:#dddddd;
+	color:#cccccc;
 	-webkit-transition: all 0.5s ease-in;
 	-moz-transition: all 0.5s ease-in;
 	-o-transition: all 0.5s ease-in;
@@ -337,7 +337,7 @@ nav ul li {
 .gitexplaindivs {
 	width:28%;
 	text-align: center;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.4);
 	height:450px;
 	display: inline-block;
 	border-radius: 5px;
@@ -345,12 +345,14 @@ nav ul li {
 
 .gitexplaindivs a {
 	text-decoration: none;
-	color:black;
+	/*color:black;*/
+	color:#dddddd;
 	font-weight: bold;
 }
 
 .gitexplaindivs a:hover {
-	color:#dddddd;
+	/*color:#dddddd;*/
+	color:#bbbbbb;
 	/*transition: all 0.5s ease-in;*/
 }
 
@@ -360,7 +362,7 @@ nav ul li {
 }
 
 .gitexplaindivs:hover {
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.6);
 	-webkit-transition: all 0.5s ease-in 0.5s;
 	-moz-transition: all 0.5s ease-in 0.5s;
 	-o-transition: all 0.5s ease-in 0.5s;
@@ -439,7 +441,7 @@ nav ul li {
 .shellexplaindivs {
 	/*width:48%;*/
 	text-align: center;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.4);
 	height:250px;
 	display: inline-block;
 	border-radius: 5px;
@@ -447,12 +449,13 @@ nav ul li {
 
 .shellexplaindivs a {
 	text-decoration: none;
-	color:black;
+	/*color:black;*/
+	color:#dddddd;
 	font-weight: bold;
 }
 
 .shellexplaindivs a:hover {
-	color:#dddddd;
+	color:#bbbbbb;
 	-webkit-transition: all 0.5s ease-in 0.5s;
 	-moz-transition: all 0.5s ease-in 0.5s;
 	-o-transition: all 0.5s ease-in 0.5s;
@@ -478,6 +481,7 @@ nav ul li {
 	padding: 0;
 	width: 80%;
 	padding-bottom: 20px;
+	color:#dddddd;
 }
 
 .shellextrapadding {
@@ -501,6 +505,7 @@ nav ul li {
 	display: inline-block;
 	padding-left: 10px;
 	font-size: 14px;
+	color:#dddddd;
 }
 
 /*.shellexplaindiv2 .p1shell {
