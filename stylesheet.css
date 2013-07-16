@@ -74,6 +74,10 @@ section {
 	border-bottom: 2px solid black;
 }
 
+strong {
+	font-family: bold;
+}
+
 /*HEADER*/
 
 .header {
@@ -319,6 +323,17 @@ nav ul li {
 	border-radius: 5px;
 }
 
+.gitexplaindivs a {
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+}
+
+.gitexplaindivs a:hover {
+	color:#dddddd;
+	transition: all 0.5s ease-in;
+}
+
 .gitexplaindivs h3 {
 	margin-top: 20px;
 	padding-bottom: 15px;
@@ -390,6 +405,48 @@ nav ul li {
 .lesson2 .gitexplaindivs p {
 	padding-left: 0;
 }
+
+.shellexplaindivs {
+	width:28%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.3);
+	height:350px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.shellexplaindivs a {
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+}
+
+.shellexplaindivs a:hover {
+	color:#dddddd;
+	transition: all 0.5s ease-in;
+}
+
+.shellexplaindivs h3 {
+	margin-top: 20px;
+	padding-bottom: 15px;
+}
+
+.shellexplaindivs:hover {
+	background-color: rgba(0,0,0,0.5);
+	-webkit-transition: all 0.5s ease-in 0.5s;
+	-moz-transition: all 0.5s ease-in 0.5s;
+	-o-transition: all 0.5s ease-in 0.5s;
+	transition: all 0.5s ease-in 0.5s;
+}
+
+.shellexplaindivs p {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	width: 80%;
+	padding-bottom: 20px;
+}
+
 
 /*RESPONSIVE DESIGN*/
 
