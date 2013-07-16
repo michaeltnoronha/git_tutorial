@@ -221,6 +221,7 @@ nav ul li {
 
 .l3 a:hover {
 	color:#dddddd;
+	transition: all 0.5s ease-in;
 }
 
 /*FAQ*/
