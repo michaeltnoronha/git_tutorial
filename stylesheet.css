@@ -426,7 +426,7 @@ nav ul li {
 }
 
 .shellexplaindivs {
-	width:48%;
+	/*width:48%;*/
 	text-align: center;
 	background-color: rgba(0,0,0,0.3);
 	height:250px;
@@ -482,6 +482,7 @@ nav ul li {
 	height:200px;
 	text-align: left;
 	margin-left: 20px;
+	margin-top: -180px;
 }
 
 .shellexplaindiv2 h3 {
@@ -519,9 +520,9 @@ nav ul li {
 	}
 }
 
-@media screen and (width:700px) {
+/*@media screen and (width:700px) {
 
-}
+}*/
 
 
 
