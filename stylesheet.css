@@ -82,8 +82,7 @@ strong {
 /*HEADER*/
 
 .header {
-	border-bottom: 1px solid black;
-	background:url('binding_dark.png');
+ 	background:url('binding_dark.png');
 	z-index: 9;
 }
 
