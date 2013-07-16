@@ -221,7 +221,10 @@ nav ul li {
 
 .l3 a:hover {
 	color:#dddddd;
-	transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in 0.5s;
+	-moz-transition: all 0.5s ease-in 0.5s;
+	-o-transition: all 0.5s ease-in 0.5s;
+	transition: all 0.5s ease-in 0.5s;
 }
 
 /*FAQ*/
@@ -337,7 +340,7 @@ nav ul li {
 
 .gitexplaindivs a:hover {
 	color:#dddddd;
-	transition: all 0.5s ease-in;
+	/*transition: all 0.5s ease-in;*/
 }
 
 .gitexplaindivs h3 {
@@ -397,20 +400,28 @@ nav ul li {
 }
 
 .lesson2 h3 {
-	display: inline-block;
+	/*display: inline-block;*/
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 20px;
-	padding-left: 7px;
+	/*padding-left: 7px;*/
+	text-align: center;
+	padding-top: 15px;
 }
 
 .lesson2 p {
-	display:inline-block;
-	padding-left: 120px;
+	/*display:inline-block;*/
+	/*padding-left: 120px;*/
 	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	padding-top: 10px;
 }
 
 .lesson2 .gitexplaindivs p {
 	padding-left: 0;
+}
+
+.lesson2 .gitexplaincontain {
+	margin-bottom:0px;
 }
 
 .shellexplaindivs {
@@ -430,7 +441,10 @@ nav ul li {
 
 .shellexplaindivs a:hover {
 	color:#dddddd;
-	transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in 0.5s;
+	-moz-transition: all 0.5s ease-in 0.5s;
+	-o-transition: all 0.5s ease-in 0.5s;
+	transition: all 0.5s ease-in 0.5s;
 }
 
 .shellexplaindivs h3 {
