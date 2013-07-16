@@ -209,7 +209,7 @@ nav ul li {
 	padding-bottom: 60px;
 	text-align: center;
 	border-bottom: 2px solid black;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 .lessonsummary p {
@@ -392,7 +392,7 @@ nav ul li {
 .lesson2 h2 {
 	background-color: rgba(186,218,85,0.8);
 	border-radius: 25px;
-	/*display: inline-block;*/
+	/*display: inl'ine-block;*/
 	padding:7px;
 	border:1px solid black;
 	/*margin-top: 50px;*/
@@ -520,7 +520,7 @@ nav ul li {
 
 /*RESPONSIVE DESIGN*/
 
-@media screen and (min-width:1060px) {
+@media screen and (max-width:1060px) {
 	header {
 		text-align: center;
 		padding-top: 15px;
