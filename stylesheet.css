@@ -520,7 +520,7 @@ nav ul li {
 
 /*RESPONSIVE DESIGN*/
 
-@media screen and (max-width:1060px) {
+@media screen and (min-width:1060px) {
 	header {
 		text-align: center;
 		padding-top: 15px;
@@ -546,9 +546,14 @@ nav ul li {
 	}
 }
 
-/*@media screen and (width:700px) {
+@media screen and (max-width:1050px) {
+	
+	.lessonparamter {
+		width:960px;
+	}
 
-}*/
+
+}
 
 
 
