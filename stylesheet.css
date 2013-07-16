@@ -108,17 +108,18 @@ header {
 .gitlogo {
 	height: 60px;
 	width: 80px;
+	position: relative;
 }
 
 .gitlogo:before {
 	content: "";
-	background: url('img/git_logo.png') 0 0 no-repeat;
+	position: absolute;
+	top:0;
+	left:0;
+	background: url('git_logo.png') 0 0 no-repeat;
 	height: 60px;
 	width: 80px;
 	z-index: 100;
-	top:0;
-	left:0;
-	float:right;
 }
 
 /*NAVBAR*/
