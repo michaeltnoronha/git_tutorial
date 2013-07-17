@@ -629,7 +629,7 @@ nav ul li {
 	padding-top: 10px;
 }
 
-.gitexplaindivs {
+.onlineexplaindivs {
 	width:28%;
 	text-align: center;
 	background-color: rgba(0,0,0,0.3);
@@ -638,23 +638,23 @@ nav ul li {
 	border-radius: 5px;
 }
 
-.gitexplaindivs a {
+.onlineexplaindivs a {
 	text-decoration: none;
 	color:black;
 	font-weight: bold;
 }
 
-.gitexplaindivs a:hover {
+.onlineexplaindivs a:hover {
 	color:#dddddd;
 	/*transition: all 0.5s ease-in;*/
 }
 
-.gitexplaindivs h3 {
+.onlineexplaindivs h3 {
 	margin-top: 20px;
 	padding-bottom: 15px;
 }
 
-.gitexplaindivs:hover {
+.onlineexplaindivs:hover {
 	background-color: rgba(0,0,0,0.5);
 	-webkit-transition: all 0.5s ease-in 0.5s;
 	-moz-transition: all 0.5s ease-in 0.5s;
@@ -662,7 +662,7 @@ nav ul li {
 	transition: all 0.5s ease-in 0.5s;
 }
 
-.gitexplaindivs p {
+.onlineexplaindivs p {
 	text-align: center;
 	margin: 0 auto;
 	padding: 0;
@@ -670,7 +670,7 @@ nav ul li {
 	padding-bottom: 20px;
 }
 
-.gitexplaincontain {
+.onlinerepocontain {
 	margin-top: 30px;
 	text-align: center;
 	margin-bottom: 35px;
