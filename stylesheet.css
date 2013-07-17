@@ -505,8 +505,9 @@ nav ul li {
 	/*padding-bottom:;*/
 	display: inline-block;
 	padding-left: 10px;
-	font-size: 10px;
+	font-size: 11px;
 	margin-top: 5px;
+	color:#008500;
 }
 
 /*.shellexplaindiv2 .p1shell {
@@ -522,10 +523,6 @@ nav ul li {
 	top:24px;
 	margin-top: -40px;
 }*/
-
-.shellexplindiv2 .p1shell, .shellexplaindiv2 .p2shell {
-	/*display: none;*/
-}
 
 /*RESPONSIVE DESIGN*/
 
