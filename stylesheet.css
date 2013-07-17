@@ -586,9 +586,12 @@ nav ul li {
 /*LESSON 3*/
 
 .lesson3 {
+	height: 100%;
+	width:100%;
 	position: absolute;
 	top:300%;
-	left: 0%;
+	left:0%;
+	z-index: -5;
 }
 
 .lesson3 h2 {
@@ -626,15 +629,51 @@ nav ul li {
 	padding-top: 10px;
 }
 
-.onlinerepocontain {
+.gitexplaindivs {
+	width:28%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.3);
+	height:450px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.gitexplaindivs a {
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+}
+
+.gitexplaindivs a:hover {
+	color:#dddddd;
+	/*transition: all 0.5s ease-in;*/
+}
+
+.gitexplaindivs h3 {
+	margin-top: 20px;
+	padding-bottom: 15px;
+}
+
+.gitexplaindivs:hover {
+	background-color: rgba(0,0,0,0.5);
+	-webkit-transition: all 0.5s ease-in 0.5s;
+	-moz-transition: all 0.5s ease-in 0.5s;
+	-o-transition: all 0.5s ease-in 0.5s;
+	transition: all 0.5s ease-in 0.5s;
+}
+
+.gitexplaindivs p {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	width: 80%;
+	padding-bottom: 20px;
+}
+
+.gitexplaincontain {
 	margin-top: 30px;
 	text-align: center;
 	margin-bottom: 35px;
-}
-
-.lesson3 .lessonparamter {
-	width: 1024px;
-	margin: 0 auto;
 }
 
 /*FOOTER*/
@@ -652,9 +691,9 @@ nav ul li {
 }
 
 .footer a {
-	color: white;
+	color:white;
+	font-size: 13px;
 	font-family: sans-serif;
-	font-size: 14px;
 }
 
 
