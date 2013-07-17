@@ -595,6 +595,7 @@ nav ul li {
 	border:1px solid white;
 	padding: 7px 7px 0 7px;
 	/*font-family: sans-serif;*/
+	border-radius: 5px;
 }
 
 .footer a {
