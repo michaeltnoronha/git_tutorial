@@ -688,6 +688,8 @@ nav ul li {
 	top: 0;
 	right:0;
 	border-radius: 5px;
+	/*margin-right: -20px;*/
+	margin-left: 77px;
 }
 
 .downloads a {
