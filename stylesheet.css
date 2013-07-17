@@ -619,6 +619,7 @@ nav ul li {
 	/*padding-left: 7px;*/
 	text-align: center;
 	padding-top: 15px;
+	margin-top: 22px;
 }
 
 .lesson3 p {
@@ -633,7 +634,7 @@ nav ul li {
 	width:60%;
 	text-align: left;
 	background-color: rgba(0,0,0,0.3);
-	height:300px;
+	height:250px;
 	display: inline-block;
 	border-radius: 5px;
 }
@@ -669,6 +670,7 @@ nav ul li {
 	width: 80%;
 	padding-bottom: 20px;
 	display: inline-block;
+	margin-left: 60px;
 }
 
 .onlinerepocontain {
@@ -680,7 +682,7 @@ nav ul li {
 .downloads {
 	display: inline-block;
 	background-color: rgba(0,0,0,0.4);
-	height: 300px;
+	height: 250px;
 	width:32%;
 	position: relative;
 	top: 0;
@@ -697,7 +699,7 @@ nav ul li {
 	padding:5px;
 	/*margin: 0 auto;*/
 	position: relative;
-	top:30px;
+	top:20px;
 	left:110px;
 }
 
