@@ -713,6 +713,20 @@ nav ul li {
 	margin-top: 35px;
 }
 
+.tutorialimg {
+	margin-top: 20px;
+}
+
+.tutorialimg .signupimg{
+	height: 200px;
+	margin-right: 50px;
+}
+
+.tutorialimg h3 {
+	text-align: center;
+	display: inline-block;
+}
+
 /*FOOTER*/
 
 .footer {
