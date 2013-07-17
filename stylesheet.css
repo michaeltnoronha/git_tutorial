@@ -442,6 +442,14 @@ nav ul li {
 	border-radius: 5px;
 }
 
+.terminalex {
+	background-color: rgba(0,0,0,0.7) !important;
+}
+
+.terminalex:hover {
+	background-color: rgba(0,0,0,0.7) !important;
+}
+
 .shellexplaindivs a {
 	text-decoration: none;
 	color:black;
