@@ -583,6 +583,59 @@ nav ul li {
 	padding-left: 10px;
 }
 
+/*LESSON 3*/
+
+.lesson3 {
+	position: absolute;
+	top:300%;
+	left: 0%;
+}
+
+.lesson3 h2 {
+	background-color: rgba(186,218,85,0.8);
+	border-radius: 25px;
+	/*display: inline-block;*/
+	padding:7px;
+	border:1px solid black;
+	/*margin-top: 50px;*/
+	font-weight:bold;
+	font-size: 24px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 50px;
+	/*margin:0 auto;*/
+	/*margin-left: 10%;*/
+	position: relative;
+	z-index: 0;
+	text-align: center;
+}
+
+.lesson3 h3 {
+	/*display: inline-block;*/
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	/*padding-left: 7px;*/
+	text-align: center;
+	padding-top: 15px;
+}
+
+.lesson3 p {
+	/*display:inline-block;*/
+	/*padding-left: 120px;*/
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-top: 10px;
+}
+
+.onlinerepocontain {
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.lesson3 .lessonparamter {
+	width: 1024px;
+	margin: 0 auto;
+}
 
 /*FOOTER*/
 
