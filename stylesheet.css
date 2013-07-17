@@ -592,6 +592,7 @@ nav ul li {
 	top:300%;
 	left:0%;
 	z-index: -5;
+	border-bottom: 2px solid black;
 }
 
 .lesson3 h2 {
@@ -717,9 +718,17 @@ nav ul li {
 	margin-top: 20px;
 }
 
-.tutorialimg .signupimg{
-	height: 200px;
-	margin-right: 50px;
+.tutorialimg .signupimg {
+	width:200px;
+	margin-right: 10px;
+}
+
+.tutorialimg .newrepobutton {
+	margin-right: 10px;
+}
+
+.tutorialimg .namerepositoryimg {
+	width:200px;
 }
 
 .tutorialimg h3 {
