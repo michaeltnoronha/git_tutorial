@@ -107,8 +107,8 @@ header {
 	z-index: 10;
 }
 
-.header ul li:nth-child(5) {
-	margin-right:120px;
+.header ul {
+	float:right;
 }
 
 /*.gitlogo {
@@ -151,6 +151,13 @@ nav ul a:hover {
 	transition: all 0.5s ease-in;
 }
 
+nav .navulparameter {
+	width:800px;
+	position: relative;
+	right:0;
+	top:0;
+}
+
 nav ul li {
 	list-style-type: none;
 	display: inline-block;
@@ -172,6 +179,10 @@ nav ul li {
 .toplink {
 	float:right;
 	clear:both;
+}
+
+nav ul {
+	text-align: center;
 }
 
 /*LESSON EXPLANATIONS*/
@@ -760,92 +771,6 @@ nav ul li {
 }
 
 /*LESSON 4*/
-
-.lesson4 {
-	height: 100%;
-	width:100%;
-	position: absolute;
-	top:100%;
-	left:0%;
-	z-index: -5;
-}
-
-.lesson4 h2 {
-	background-color: rgba(186,218,85,0.8);
-	border-radius: 25px;
-	/*display: inline-block;*/
-	padding:7px;
-	border:1px solid black;
-	/*margin-top: 50px;*/
-	font-weight:bold;
-	font-size: 24px;
-	font-family: 'Source Sans Pro', sans-serif;
-	margin-top: 50px;
-	/*margin:0 auto;*/
-	/*margin-left: 10%;*/
-	position: relative;
-	z-index: 0;
-	text-align: center;
-}
-
-.lesson4 h3 {
-	/*display: inline-block;*/
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 20px;
-	/*padding-left: 7px;*/
-	text-align: center;
-	padding-top: 15px;
-}
-
-.lesson4 p {
-	/*display:inline-block;*/
-	/*padding-left: 120px;*/
-	text-align: center;
-	font-family: 'Source Sans Pro', sans-serif;
-	padding-top: 10px;
-}
-
-.gitexplaindivs {
-	width:28%;
-	text-align: center;
-	background-color: rgba(0,0,0,0.3);
-	height:450px;
-	display: inline-block;
-	border-radius: 5px;
-}
-
-.gitexplaindivs a {
-	text-decoration: none;
-	color:black;
-	font-weight: bold;
-}
-
-.gitexplaindivs h3 {
-	margin-top: 20px;
-	padding-bottom: 15px;
-}
-
-/*.gitexplaindivs:hover {
-	background-color: rgba(0,0,0,0.5);
-	-webkit-transition: all 0.5s ease-in 0.5s;
-	-moz-transition: all 0.5s ease-in 0.5s;
-	-o-transition: all 0.5s ease-in 0.5s;
-	transition: all 0.5s ease-in 0.5s;
-}*/
-
-.gitexplaindivs p {
-	text-align: center;
-	margin: 0 auto;
-	padding: 0;
-	width: 80%;
-	padding-bottom: 20px;
-}
-
-.gitexplaincontain {
-	margin-top: 30px;
-	text-align: center;
-	margin-bottom: 35px;
-}
 
 
 /*RESPONSIVE DESIGN*/
