@@ -351,23 +351,18 @@ nav ul li {
 	font-weight: bold;
 }
 
-.gitexplaindivs a:hover {
-	color:#dddddd;
-	/*transition: all 0.5s ease-in;*/
-}
-
 .gitexplaindivs h3 {
 	margin-top: 20px;
 	padding-bottom: 15px;
 }
 
-.gitexplaindivs:hover {
+/*.gitexplaindivs:hover {
 	background-color: rgba(0,0,0,0.5);
 	-webkit-transition: all 0.5s ease-in 0.5s;
 	-moz-transition: all 0.5s ease-in 0.5s;
 	-o-transition: all 0.5s ease-in 0.5s;
 	transition: all 0.5s ease-in 0.5s;
-}
+}*/
 
 .gitexplaindivs p {
 	text-align: center;
@@ -461,26 +456,26 @@ nav ul li {
 	font-weight: bold;
 }
 
-.shellexplaindivs a:hover {
+/*.shellexplaindivs a:hover {
 	color:#dddddd;
 	-webkit-transition: all 0.5s ease-in 0.5s;
 	-moz-transition: all 0.5s ease-in 0.5s;
 	-o-transition: all 0.5s ease-in 0.5s;
 	transition: all 0.5s ease-in 0.5s;
-}
+}*/
 
 .shellexplaindivs h3 {
 	margin-top: 20px;
 	padding-bottom: 15px;
 }
 
-.shellexplaindivs:hover {
+/*.shellexplaindivs:hover {
 	background-color: rgba(0,0,0,0.5);
 	-webkit-transition: all 0.5s ease-in 0.5s;
 	-moz-transition: all 0.5s ease-in 0.5s;
 	-o-transition: all 0.5s ease-in 0.5s;
 	transition: all 0.5s ease-in 0.5s;
-}
+}*/
 
 .shellexplaindivs p {
 	text-align: center;
@@ -645,23 +640,18 @@ nav ul li {
 	font-weight: bold;
 }
 
-.onlineexplaindivs a:hover {
-	color:#dddddd;
-	/*transition: all 0.5s ease-in;*/
-}
-
 .onlineexplaindivs h3 {
 	margin-top: 20px;
 	padding-bottom: 15px;
 }
 
-.onlineexplaindivs:hover {
+/*.onlineexplaindivs:hover {
 	background-color: rgba(0,0,0,0.5);
 	-webkit-transition: all 0.5s ease-in 0.5s;
 	-moz-transition: all 0.5s ease-in 0.5s;
 	-o-transition: all 0.5s ease-in 0.5s;
 	transition: all 0.5s ease-in 0.5s;
-}
+}*/
 
 .onlineexplaindivs p {
 	text-align: center;
@@ -705,9 +695,9 @@ nav ul li {
 	left:110px;
 }
 
-.downloads a:hover {
+/*.downloads a:hover {
 	color:#9e9e9e;
-}
+}*/
 
 .downloads p {
 	margin-top: 35px;
@@ -768,6 +758,95 @@ nav ul li {
 	font-size: 13px;
 	font-family: sans-serif;
 }
+
+/*LESSON 4*/
+
+.lesson4 {
+	height: 100%;
+	width:100%;
+	position: absolute;
+	top:100%;
+	left:0%;
+	z-index: -5;
+}
+
+.lesson4 h2 {
+	background-color: rgba(186,218,85,0.8);
+	border-radius: 25px;
+	/*display: inline-block;*/
+	padding:7px;
+	border:1px solid black;
+	/*margin-top: 50px;*/
+	font-weight:bold;
+	font-size: 24px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 50px;
+	/*margin:0 auto;*/
+	/*margin-left: 10%;*/
+	position: relative;
+	z-index: 0;
+	text-align: center;
+}
+
+.lesson4 h3 {
+	/*display: inline-block;*/
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	/*padding-left: 7px;*/
+	text-align: center;
+	padding-top: 15px;
+}
+
+.lesson4 p {
+	/*display:inline-block;*/
+	/*padding-left: 120px;*/
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-top: 10px;
+}
+
+.gitexplaindivs {
+	width:28%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.3);
+	height:450px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.gitexplaindivs a {
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+}
+
+.gitexplaindivs h3 {
+	margin-top: 20px;
+	padding-bottom: 15px;
+}
+
+/*.gitexplaindivs:hover {
+	background-color: rgba(0,0,0,0.5);
+	-webkit-transition: all 0.5s ease-in 0.5s;
+	-moz-transition: all 0.5s ease-in 0.5s;
+	-o-transition: all 0.5s ease-in 0.5s;
+	transition: all 0.5s ease-in 0.5s;
+}*/
+
+.gitexplaindivs p {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	width: 80%;
+	padding-bottom: 20px;
+}
+
+.gitexplaincontain {
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
 
 /*RESPONSIVE DESIGN*/
 
