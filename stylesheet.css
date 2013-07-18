@@ -75,7 +75,7 @@ section {
 }
 
 strong {
-	// font-weight: bold;
+	font-weight: bold;
 	display: block;
 }
 
@@ -922,7 +922,7 @@ nav ul {
 	height: 100%;
 	width:100%;
 	position: absolute;
-	top:600%;
+	top:500%;
 	left:0%;
 	z-index: -5;
 }
@@ -1007,7 +1007,7 @@ nav ul {
 	right:20px;
 	/*color:white;*/
 	background-color: rgba(0,0,0,0.7);
-`	border:1px solid white;
+	border:1px solid white;
 	padding: 7px 7px 0 7px;
 	/*font-family: sans-serif;*/
 	border-radius: 5px;
