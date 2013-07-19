@@ -111,23 +111,6 @@ header {
 	float:right;
 }
 
-/*.gitlogo {
-	height: 60px;
-	width: 80px;
-	position: relative;
-}
-
-.gitlogo:before {
-	content: "";
-	position: absolute;
-	top:0;
-	left:0;
-	background: url('git_logo.png') 0 0 no-repeat;
-	height: 60px;
-	width: 80px;
-	z-index: 100;
-}*/
-
 /*NAVBAR*/
 
 nav {
@@ -280,7 +263,7 @@ nav ul {
 	position: absolute;
 	left: 0%;
 	z-index: -5;
-	color:white !important;
+	color:#d3d3d3 !important;
 }
 
 /*FAQ*/
@@ -647,14 +630,6 @@ nav ul {
 	padding-bottom: 15px;
 }
 
-/*.onlineexplaindivs:hover {
-	background-color: rgba(0,0,0,0.5);
-	-webkit-transition: all 0.5s ease-in 0.5s;
-	-moz-transition: all 0.5s ease-in 0.5s;
-	-o-transition: all 0.5s ease-in 0.5s;
-	transition: all 0.5s ease-in 0.5s;
-}*/
-
 .onlineexplaindivs p {
 	text-align: center;
 	margin: 0 auto;
@@ -697,16 +672,11 @@ nav ul {
 	left:110px;
 }
 
-/*.downloads a:hover {
-	color:#9e9e9e;
-}*/
-
 .downloads p {
 	margin-top: 35px;
 }
 
 .tutorialimg {
-	/*margin-top: 20px;*/
 	margin:20px auto 0 auto;
 }
 
@@ -750,16 +720,12 @@ nav ul {
 .lesson4 h2 {
 	background-color: rgba(186,218,85,0.8);
 	border-radius: 25px;
-	/*display: inline-block;*/
 	padding:7px;
 	border:1px solid black;
-	/*margin-top: 50px;*/
 	font-weight:bold;
 	font-size: 24px;
 	font-family: 'Source Sans Pro', sans-serif;
 	margin-top: 50px;
-	/*margin:0 auto;*/
-	/*margin-left: 10%;*/
 	position: relative;
 	z-index: 0;
 	text-align: center;
@@ -776,8 +742,6 @@ nav ul {
 }
 
 .lesson4 p {
-	/*display:inline-block;*/
-	/*padding-left: 120px;*/
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding-top: 10px;
@@ -828,34 +792,26 @@ nav ul {
 .lesson5 h2 {
 	background-color: rgba(186,218,85,0.8);
 	border-radius: 25px;
-	/*display: inline-block;*/
 	padding:7px;
 	border:1px solid black;
-	/*margin-top: 50px;*/
 	font-weight:bold;
 	font-size: 24px;
 	font-family: 'Source Sans Pro', sans-serif;
 	margin-top: 50px;
-	/*margin:0 auto;*/
-	/*margin-left: 10%;*/
 	position: relative;
 	z-index: 0;
 	text-align: center;
 }
 
 .lesson5 h3 {
-	/*display: inline-block;*/
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 20px;
-	/*padding-left: 7px;*/
 	text-align: center;
 	padding-top: 15px;
 	margin-top: 22px;
 }
 
 .lesson5 p {
-	/*display:inline-block;*/
-	/*padding-left: 120px;*/
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding-top: 10px;
@@ -912,26 +868,20 @@ nav ul {
 	font-size: 24px;
 	font-family: 'Source Sans Pro', sans-serif;
 	margin-top: 50px;
-	/*margin:0 auto;*/
-	/*margin-left: 10%;*/
 	position: relative;
 	z-index: 0;
 	text-align: center;
 }
 
 .lesson6 h3 {
-	/*display: inline-block;*/
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 20px;
-	/*padding-left: 7px;*/
 	text-align: center;
 	padding-top: 15px;
 	margin-top: 22px;
 }
 
 .lesson6 p {
-	/*display:inline-block;*/
-	/*padding-left: 120px;*/
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding-top: 10px;
