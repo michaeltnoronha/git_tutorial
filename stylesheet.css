@@ -81,7 +81,7 @@ section {
 	width: 1024px !important;
 	margin: 0 auto;
 	border-bottom: 2px solid black;
-	padding-bottom: 160px;
+	padding-bottom: 200px;
 }
 
 strong {
@@ -851,7 +851,7 @@ nav ul {
 }
 
 .cloneterminalexplain {
-	height:160px;
+	height:200px;
 	width:32%;
 	display: inline-block;
 	background-color: rgba(0,0,0,0.5);
