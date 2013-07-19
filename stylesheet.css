@@ -78,6 +78,7 @@ section {
 strong {
 	font-weight: bold;
 	display: block;
+	color:#d3d3d3;
 }
 
 /*HEADER*/
@@ -273,7 +274,7 @@ nav ul {
 }
 
 .lessons a {
-	color:white;
+	color:#d3d3d3 !important;
 	font-family: sans-serif;
 	font-size: 14px;
 }
@@ -779,7 +780,7 @@ nav ul {
 }
 
 .localclonedivs h3 {
-	margin-top: 50px;
+	margin-top: 25px;
 	padding-bottom: 15px;
 }
 
@@ -794,7 +795,7 @@ nav ul {
 }
 
 .clonecontain {
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 	text-align: left;
 	margin-bottom: 35px;
 }
@@ -803,6 +804,8 @@ nav ul {
 	width:30%;
 	border-radius: 5px;
 	margin-top: 20px;
+	position: relative;
+	top:35px;
 }
 
 /*LESSON 5*/
