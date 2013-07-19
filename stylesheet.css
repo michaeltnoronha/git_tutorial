@@ -499,7 +499,7 @@ nav ul {
 }
 
 .shellexplaindiv2 {
-	width:50% !important;
+	width:66% !important;
 	/*background-color: rgba(0,0,0,0.7);*/
 	color:#dddddd;
 	font-family: courier;
@@ -561,14 +561,14 @@ nav ul {
 }*/
 
 .cmdlist {
-	height:200px;
-	width:40%;
+	height:220px;
+	width:32%;
 	background-color: rgba(0,0,0,0.5);
 	border-radius: 5px;
 	display: inline-block;
 	position: relative;
-	right:-100px;
-	top:10px;
+	/*right:-100px;*/
+	top:30px;
 	margin-top: 15px;
 }
 
