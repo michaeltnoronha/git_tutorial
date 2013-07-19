@@ -755,7 +755,7 @@ nav ul {
 .lesson4 h3 {
 	/*display: inline-block;*/
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 19px;
+	font-size: 18px;
 	/*padding-left: 7px;*/
 	text-align: center;
 	padding-top: 15px;
@@ -814,7 +814,7 @@ nav ul {
 
 .cloneterminal {
 	height:200px;
-	width:50% !important;
+	width:64% !important;
 	background-color:rgba(0,0,0,0.8);
 	border-radius: 5px;
 	margin-top: 25px;
@@ -846,10 +846,18 @@ nav ul {
 	display: inline-block;
 	background-color: rgba(0,0,0,0.5);
 	border-radius: 5px;
+	float:right;
+	margin-top: 25px;
 }
 
 .cloneterminalexplain h4 {
 	margin-top: -10px;
+	width:80%;
+}
+
+.cloneterminalexplain p {
+	width: 80%;
+	margin: 0 auto;
 }
 
 /*LESSON 5*/
