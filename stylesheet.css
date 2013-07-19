@@ -274,6 +274,15 @@ nav ul {
 	transition: all 0.5s ease-in 0.5s;
 }
 
+.lessons {
+	height: 100%;
+	width:100%;
+	position: absolute;
+	left: 0%;
+	z-index: -5;
+	color:white !important;
+}
+
 /*FAQ*/
 
 .faqdivs {
@@ -327,12 +336,7 @@ nav ul {
 /*LESSON ONE*/
 
 .lesson1 {
-	height: 100%;
-	width:100%;
-	position: absolute;
 	top:100%;
-	left:0%;
-	z-index: -5;
 }
 
 .lesson1 h2 {
@@ -373,7 +377,7 @@ nav ul {
 .gitexplaindivs {
 	width:28%;
 	text-align: center;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.5);
 	height:450px;
 	display: inline-block;
 	border-radius: 5px;
@@ -389,14 +393,6 @@ nav ul {
 	margin-top: 20px;
 	padding-bottom: 15px;
 }
-
-/*.gitexplaindivs:hover {
-	background-color: rgba(0,0,0,0.5);
-	-webkit-transition: all 0.5s ease-in 0.5s;
-	-moz-transition: all 0.5s ease-in 0.5s;
-	-o-transition: all 0.5s ease-in 0.5s;
-	transition: all 0.5s ease-in 0.5s;
-}*/
 
 .gitexplaindivs p {
 	text-align: center;
@@ -415,12 +411,7 @@ nav ul {
 /*LESSON TWO*/
 
 .lesson2 {
-	position: absolute;
-	height: 100%;
-	width: 100%;
 	top:200%;
-	left: 0%;
-	z-index: -5;
 }
 
 .lesson2 h2 {
@@ -451,8 +442,6 @@ nav ul {
 }
 
 .lesson2 p {
-	/*display:inline-block;*/
-	/*padding-left: 120px;*/
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
 	padding-top: 10px;
@@ -470,7 +459,7 @@ nav ul {
 .shellexplaindivs {
 	/*width:48%;*/
 	text-align: center;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.5);
 	height:250px;
 	display: inline-block;
 	border-radius: 5px;
@@ -486,30 +475,14 @@ nav ul {
 
 .shellexplaindivs a {
 	text-decoration: none;
-	color:black;
+	color:white;
 	font-weight: bold;
 }
-
-/*.shellexplaindivs a:hover {
-	color:#dddddd;
-	-webkit-transition: all 0.5s ease-in 0.5s;
-	-moz-transition: all 0.5s ease-in 0.5s;
-	-o-transition: all 0.5s ease-in 0.5s;
-	transition: all 0.5s ease-in 0.5s;
-}*/
 
 .shellexplaindivs h3 {
 	margin-top: 20px;
 	padding-bottom: 15px;
 }
-
-/*.shellexplaindivs:hover {
-	background-color: rgba(0,0,0,0.5);
-	-webkit-transition: all 0.5s ease-in 0.5s;
-	-moz-transition: all 0.5s ease-in 0.5s;
-	-o-transition: all 0.5s ease-in 0.5s;
-	transition: all 0.5s ease-in 0.5s;
-}*/
 
 .shellexplaindivs p {
 	text-align: center;
@@ -587,7 +560,7 @@ nav ul {
 .cmdlist {
 	height:200px;
 	width:40%;
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.5);
 	border-radius: 5px;
 	display: inline-block;
 	position: relative;
@@ -615,12 +588,7 @@ nav ul {
 /*LESSON 3*/
 
 .lesson3 {
-	height: 100%;
-	width:100%;
-	position: absolute;
 	top:300%;
-	left:0%;
-	z-index: -5;
 }
 
 .lesson3 h2 {
@@ -776,12 +744,7 @@ nav ul {
 /*LESSON 4*/
 
 .lesson4 {
-	height: 100%;
-	width:100%;
-	position: absolute;
 	top:400%;
-	left:0%;
-	z-index: -5;
 }
 
 .lesson4 h2 {
@@ -859,12 +822,7 @@ nav ul {
 /*LESSON 5*/
 
 .lesson5 {
-	height: 100%;
-	width:100%;
-	position: absolute;
 	top:500%;
-	left:0%;
-	z-index: -5;
 }
 
 .lesson5 h2 {
@@ -942,21 +900,14 @@ nav ul {
 /*LESSON 6*/
 
 .lesson6 {
-	height: 100%;
-	width:100%;
-	position: absolute;
 	top:600%;
-	left:0%;
-	z-index: -5;
 }
 
 .lesson6 h2 {
 	background-color: rgba(186,218,85,0.8);
 	border-radius: 25px;
-	/*display: inline-block;*/
 	padding:7px;
 	border:1px solid black;
-	/*margin-top: 50px;*/
 	font-weight:bold;
 	font-size: 24px;
 	font-family: 'Source Sans Pro', sans-serif;
