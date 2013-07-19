@@ -952,6 +952,47 @@ nav ul {
 
 /*FOOTER*/
 
+footer {
+	position: absolute;
+	top:680%;
+	margin:0 auto;
+}
+
+.footernav {
+	float:left;
+	clear:both;
+}
+
+.footernav ul {
+	display:inline-block;
+}
+
+.footernav ul li {
+	display: inline-block;
+	list-style-type: none;
+	margin-left:-4px;
+}
+
+.footernav ul li a {
+	display:inline-block;
+	background-color:#4E5964;
+	padding:5px;
+	width:70px;
+	border-left:2px solid #3D464E;
+	padding-top:45px;
+	padding-bottom:45px;
+	transition: all 0.2s ease-in;
+}
+
+.footernav ul li a:first-child:hover {
+	background-color:rgb(121,25,6);
+	width:120px;
+}
+
+.footer ul li a:hover {
+	background-color: #0f0;
+	width:120px;
+}
 
 /*RESPONSIVE DESIGN*/
 
