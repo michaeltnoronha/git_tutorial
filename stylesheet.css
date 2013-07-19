@@ -810,6 +810,31 @@ nav ul {
 	top:35px;
 }
 
+.cloneterminal {
+	height:200px;
+	width:50% !important;
+	background-color:rgba(0,0,0,0.8);
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.cloneterminal p {
+	font-family:courier;
+	color:#008500;
+	font-size: 12px;
+	/*padding-left: 5px;*/
+	margin-top: -5px;
+}
+
+.cloneterminal h3 {
+	display: block;
+	text-align: left;
+	padding-left: 10px;
+	font-size: 11px;
+	margin-top: 5px;
+	color:#008500;font-size: 
+}
+
 /*LESSON 5*/
 
 .lesson5 {
@@ -970,7 +995,7 @@ footer {
 .footernav ul li {
 	display: inline-block;
 	list-style-type: none;
-	margin-left:-4px;
+	margin-left:0;
 }
 
 .footernav ul li a {
@@ -984,14 +1009,23 @@ footer {
 	transition: all 0.2s ease-in;
 }
 
-.footernav ul li a:first-child:hover {
-	background-color:rgb(121,25,6);
+.footernav ul li a {
 	width:120px;
+	height: 40px;
 }
 
 .footer ul li a:hover {
-	background-color: #0f0;
+	background-color: #0f0 !important;
 	width:120px;
+	height:40px;
+}
+
+.findongithub:hover {
+	background-color:rgb(121,25,6);
+}
+
+.emailme:hover {
+	background-color: rgb(139,55,20);
 }
 
 /*RESPONSIVE DESIGN*/
