@@ -1079,23 +1079,27 @@ nav ul {
 
 /*RESPONSIVE DESIGN*/
 
-@media screen and (max-width: 1140px) {
-	section {
-		width:900px;
-		margin: 0 auto;
+@media screen and (max-width: 400px) {
+	body {
+		max-width: 400px;
+		width: 350px;
+		overflow: hidden
 	}
+
+	section {
+		width:400px;
+	}
+
+	.lessonparameter {
+		width: 400px;
+	}
+
 	header {
 		text-align: center;
-	}
-	.header h3 {
-		display: none;
-	}
-	nav .navulparameter {
-		right:20%;
-		padding-top: 20px;
-	}
-	.back-to-top {
-		display: none;
+	} 
+
+	.lessonexplain {
+		display: block;
 	}
 }
 
