@@ -1078,7 +1078,7 @@ nav ul {
 
 /*RESPONSIVE DESIGN*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
 	body {
 /*		max-width: 780px;*/
 		/*width: 350px;*/
