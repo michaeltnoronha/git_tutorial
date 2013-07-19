@@ -1261,8 +1261,10 @@ nav ul {
 
 	.contact {
 		position: absolute;
-		top:845%;
+		top:930%;
 		left:0;
+		display: inline-block;
+		margin-left: 30px;
 	}
 
 	.lesson5 h2 {
