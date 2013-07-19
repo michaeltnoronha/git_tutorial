@@ -1038,56 +1038,47 @@ nav ul {
 
 /*FOOTER*/
 
-footer {
-	position: absolute;
-	top:680%;
-	margin:0 auto;
+.contact a{
+    position:absolute;
+    top:680%;
+    left:15%;
+    background-color: rgb(121,25,6);
+    border-radius:5px;
+    text-decoration: none !important;
+    font-weight: bold;
+    color:#d3d3d3;
 }
 
-.footernav {
-	float:left;
-	clear:both;
+.contact:nth-child(2) {
+	background-color: rgb(139,55,20)
 }
 
-.footernav ul {
-	display:inline-block;
+.contact p{
+    position:absolute;
+    top:680%;
+    left:70%;
+    background-color: #2c3747;
+    border-radius:5px;
+    font-weight: bold;
+    padding:5px 0;
 }
 
-.footernav ul li {
-	display: inline-block;
-	list-style-type: none;
-	margin-left:0;
+.gitbutton{
+    position:absolute;
+    left:40%;
+    top:680%;
+    background-color: #2c3747;
+    border-radius: 5px;
+    font-weight: bold;
+    width:400px;
 }
 
-.footernav ul li a {
-	display:inline-block;
-	background-color:#4E5964;
-	padding:5px;
-	width:70px;
-	border-left:2px solid #3D464E;
-	padding-top:45px;
-	padding-bottom:45px;
-	transition: all 0.2s ease-in;
+.contact img{
+    height:20px;
 }
 
-.footernav ul li a {
-	width:120px;
-	height: 40px;
-}
 
-.footer ul li a:hover {
-	background-color: #0f0 !important;
-	width:120px;
-	height:40px;
-}
 
-.findongithub:hover {
-	background-color:rgb(121,25,6);
-}
-
-.emailme:hover {
-	background-color: rgb(139,55,20);
-}
 
 /*RESPONSIVE DESIGN*/
 
