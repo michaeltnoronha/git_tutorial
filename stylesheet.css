@@ -529,6 +529,7 @@ nav ul {
 	font-size: 12px;
 	padding-left: 5px;
 	margin-top: -20px;
+	color: white;
 }
 
 .shellexplaincontainer {
@@ -824,6 +825,7 @@ nav ul {
 	font-size: 12px;
 	/*padding-left: 5px;*/
 	margin-top: -5px;
+	color:white;
 }
 
 .cloneterminal h3 {
