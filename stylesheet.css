@@ -74,6 +74,14 @@ section {
 	width: 1024px !important;
 	margin: 0 auto;
 	border-bottom: 2px solid black;
+	/*padding-bottom: 160px;*/
+}
+
+.lessonparameter2 {
+	width: 1024px !important;
+	margin: 0 auto;
+	border-bottom: 2px solid black;
+	padding-bottom: 160px;
 }
 
 strong {
@@ -263,7 +271,7 @@ nav ul {
 }
 
 .lessons {
-	height: 100%;
+	min-height: 100% !important;
 	width:100%;
 	position: absolute;
 	left: 0%;
@@ -736,6 +744,8 @@ nav ul {
 
 .lesson4 {
 	top:400%;
+	padding-bottom: 30px;
+
 }
 
 .lesson4 h2 {
@@ -841,13 +851,25 @@ nav ul {
 }
 
 .cloneterminalexplain {
-	height:200px;
+	height:160px;
 	width:32%;
 	display: inline-block;
 	background-color: rgba(0,0,0,0.5);
 	border-radius: 5px;
 	float:right;
 	margin-top: 25px;
+}
+
+.clonecontain img {
+	border-radius: 5px;
+	float: right;
+	width:25%;
+	margin-top: 20px;
+
+}
+
+.cloneterminalexplain2 {
+	float:left !important;
 }
 
 .cloneterminalexplain h4 {
@@ -858,12 +880,17 @@ nav ul {
 .cloneterminalexplain p {
 	width: 80%;
 	margin: 0 auto;
+	font-size: 14px;
+}
+
+.cloneterminalexplain a {
+	text-decoration: none;
 }
 
 /*LESSON 5*/
 
 .lesson5 {
-	top:500%;
+	top:530%;
 }
 
 .lesson5 h2 {
