@@ -78,15 +78,16 @@ section {
 }
 
 .lessonparameter2 {
-	width: 1024px !important;
-	margin: 0 auto;
-	border-bottom: 2px solid black;
 	padding-bottom: 200px;
+}
+
+.lessonparameter3 {
+	padding-bottom: 30px;
 }
 
 strong {
 	font-weight: bold;
-	display: block;
+	display: inline-block;
 	color:#d3d3d3;
 }
 
@@ -925,7 +926,7 @@ nav ul {
 	width:60%;
 	text-align: left;
 	background-color: rgba(0,0,0,0.3);
-	height:250px;
+	height:280px;
 	display: inline-block;
 	border-radius: 5px;
 }
@@ -952,7 +953,7 @@ nav ul {
 }
 
 .localsavecontain {
-	margin-top: 30px;
+	margin-top: 7px;
 	text-align: left;
 	margin-bottom: 35px;
 }
@@ -960,7 +961,7 @@ nav ul {
 /*LESSON 6*/
 
 .lesson6 {
-	top:600%;
+	top:610%;
 }
 
 .lesson6 h2 {
@@ -992,7 +993,7 @@ nav ul {
 }
 
 .gitpushdivs {
-	width:60%;
+	width:100%;
 	text-align: left;
 	background-color: rgba(0,0,0,0.3);
 	height:250px;
@@ -1015,7 +1016,7 @@ nav ul {
 	text-align: center;
 	margin: 0 auto;
 	padding: 0;
-	width: 80%;
+	width: 70%;
 	padding-bottom: 20px;
 	display: inline-block;
 	margin-left: 60px;
