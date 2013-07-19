@@ -66,7 +66,6 @@ body {
 
 section {
 	width: 1024px;
-	t;
 	margin: 0 auto;
 	padding-top: 60px;
 }
@@ -1214,9 +1213,73 @@ nav ul {
 	}
 
 	.gitexplaindivs {
-		height:600px;
+		height:620px;
 	}
 
+	.lesson2 h2 {
+		margin-top: 180px;
+	}
+
+	.cmdlist {
+		height:320px;
+	}
+
+	.lessons3 h2 {
+		margin-top: 300px;
+	}
+
+	.lesson3 h2 {
+		margin-top: 200px !important;
+	}
+
+	.onlineexplaindivs {
+		width:50%;
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.onlineexplaindivs p {
+		margin-left: 0;
+	}
+
+	.downloads {
+		margin-left: 65px;
+		margin-top: -20px;
+	}
+
+	.downloads a {
+		left:50px;
+	}
+
+	.tutorialimg .newrepobutton {
+		margin:30px;
+	}
+
+	.lesson4 h2 {
+		margin-top: 350px !important;
+	}
+
+	.contact {
+		position: absolute;
+		top:845%;
+		left:0;
+	}
+
+	.lesson5 h2 {
+		margin-top:475px !important;
+	}
+
+	.cloneterminalexplain {
+		height:275px;
+	}
+
+	.lesson6 h2 {
+		margin-top: 540px !important;
+	}
+
+	.gitpushdivs {
+		height: 300px;
+	}
 }
 
 
