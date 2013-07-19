@@ -1052,6 +1052,10 @@ nav ul {
 	background-color: rgb(139,55,20)
 }
 
+.contact:nth-child(3) {
+	background-color: #008500;
+}
+
 .contact p{
     position:absolute;
     top:720%;
@@ -1074,6 +1078,7 @@ nav ul {
 
 .contact img{
     height:20px;
+    border-radius: 2px;
 }
 
 /*RESPONSIVE DESIGN*/
