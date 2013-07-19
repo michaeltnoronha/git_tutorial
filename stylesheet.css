@@ -65,13 +65,14 @@ body {
 }
 
 section {
-	width: 1024px !important;
+	width: 1024px;
+	t;
 	margin: 0 auto;
 	padding-top: 60px;
 }
 
 .lessonparameter {
-	width: 1024px !important;
+	width: 1024px;
 	margin: 0 auto;
 	border-bottom: 2px solid black;
 	/*padding-bottom: 160px;*/
@@ -1079,11 +1080,12 @@ nav ul {
 
 /*RESPONSIVE DESIGN*/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
 	body {
-		max-width: 400px;
-		width: 350px;
-		overflow: hidden
+/*		max-width: 780px;*/
+		/*width: 350px;*/
+		width:100%;
+		/*overflow: hidden*/
 	}
 
 	section {
@@ -1091,16 +1093,130 @@ nav ul {
 	}
 
 	.lessonparameter {
-		width: 400px;
+		width: 750px;
+	}
+
+	.navulparameter {
+		padding-top: 20px;
+	}
+
+	.header h3 {
+		display: none;
 	}
 
 	header {
 		text-align: center;
+		margin: 0 auto;
 	} 
+
+	.back-to-top {
+		display: none;
+	}
 
 	.lessonexplain {
 		display: block;
 	}
+
+	.header{
+		width: 100%;
+	}
+
+	.lessonexplain {
+		width:150px;
+		margin-top: 20px;
+	}
+
+	.l1{
+		float: left;
+	}
+
+	.l2 {
+		float: right;
+	}
+
+	.l3 {
+		float:left;
+		clear:both;
+	}
+
+	.l4 {
+		float:right;
+	}
+
+	.l5 {
+		float:left;
+		clear:both;
+	}
+
+	.l6 {
+		float:right;
+	}
+
+	.lessonsummary {
+		/*margin-top: 295px;*/
+		margin-top: 0;
+		padding-bottom: 120px;
+	}
+
+	.lessonsummary p {
+		margin-top: 255px;
+	}
+	section {
+		width:650px;
+	}
+
+	.lessons h2 {
+		width:645px;
+		margin-top: 110px;
+	}
+
+	.faqdivs {
+		margin-top:100px;
+	}
+
+	.question {
+		margin-bottom: 100px;
+	}
+
+	.lessonparameter {
+		width:100%;
+	}
+
+	.lesson1 {
+		top:175%;
+	}
+
+	.lesson2 {
+		top:300%;
+	}
+
+	.lesson3 {
+		top:425%;
+	}
+
+	.lesson4 {
+		top:550%;
+	}
+
+	.lesson5 {
+		top:675%;
+	}
+
+	.lesson6 {
+		top:750%;
+	}
+
+	.faqdivs {
+		width:70%;
+		display: block;
+		border:none;
+		margin: 0  auto;
+	}
+
+	.gitexplaindivs {
+		height:600px;
+	}
+
 }
 
 
